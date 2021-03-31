@@ -9,6 +9,9 @@ gem 'rails', '~> 6.1.3'
 gem 'bootstrap-sass'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
