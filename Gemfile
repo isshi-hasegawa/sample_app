@@ -8,6 +8,10 @@ gem 'rails', '~> 6.1.3'
 # Use Puma as the app server
 gem 'bootstrap-sass'
 # Use Active Model has_secure_password
+gem 'aws-sdk-s3', require: false
+gem 'image_processing'
+gem 'mini_magick'
+gem 'active_storage_validations'
 gem 'bcrypt', '~> 3.1.7'
 gem 'faker'
 gem 'will_paginate'
